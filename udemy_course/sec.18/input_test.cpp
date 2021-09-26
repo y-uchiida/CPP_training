@@ -1,12 +1,12 @@
 #include <iostream>
-#include <string> /* string型を利用する場合に追記 */
+#include <string> /* string クラスを利用する場合に追記 */
 
 using namespace std;
 
 int main()
 {
 	int n;
-	std::string str; /* (データ型として)stringが使える */
+	std::string str; /* string クラスが使える */
 
 	/* cinは、標準入力のストリーム
 	 * >> の記号と組み合わせると、右辺の変数やファイルストリームに標準入力から受け取った文字列を渡せる
